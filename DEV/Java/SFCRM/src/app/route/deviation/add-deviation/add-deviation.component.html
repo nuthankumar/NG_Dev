@@ -1,0 +1,58 @@
+<!--component html goes here -->
+<header-c></header-c>
+<a routerLink="" class="home-icon"><i class="fas fa-home"></i></a><br><br>
+<div class="list">
+    <h3>Add New Deviation</h3><br>
+    <div class="deviation-box button-select-option">
+        <form (ngSubmit)="form()"> <select [(ngModel)]="selectedValue" [ngModelOptions]="{standalone: true}" required>
+         <option value="undefined" disabled selected>Select</option> 
+      
+                <option *ngFor="let list of lists" [ngValue]="list">
+                  {{list.contestId}} | {{list.contestName}} | {{list.startDate}} | {{list.endDate}}
+                </option>
+              </select>
+              <div>
+        <div class="input-field-id">
+            <label for="code">Contest ID </label>
+            <input type="text" name="contestId" class="form-control contest-details" [(ngModel)]="selectedValue.contestId" disabled><br>
+        </div> 
+        <div class="input-field">
+        <label for="code">Contest Name </label>
+            <input type="text" name="contestName" class="form-control contest-details" [(ngModel)]="selectedValue.contestName" disabled><br>
+        </div> 
+        <div class="input-field">
+        <label for="code">Contest Start Date </label>
+            <input type="text" name="startDate" class="form-control contest-details" [(ngModel)]="selectedValue.startDate" disabled><br>
+        </div>
+        <div class="input-field">
+        <label for="code">Contest End Date </label>
+            <input type="text" name="endDate" class="form-control contest-details" [(ngModel)]="selectedValue.endDate" disabled><br>
+        </div> 
+        <div class="input-field">
+        <label for="code">Contest Load Date </label>
+            <input type="date" name="loadDate" class="form-control contest-details" [(ngModel)]="loadDate"><br>
+        </div>
+        <div class="input-field">
+            <label for="code">Agent No</label>
+            <input type="text" name="name" class="form-control contest-details" [(ngModel)]="agentNo"><br>
+        </div> 
+          <div class="input-field">
+        <label for="code">Net Value </label>
+            <input type="text" name="code" class="form-control contest-details" [(ngModel)]="netPayable"><br>
+          </div><label for="code">Remarks</label>
+            <input type="text" name="desc" class="form-control" [(ngModel)]="remarks"><br>
+            <label for="code">Attachment </label>
+            <input type="text" name="desc" class="form-control" [(ngModel)]="atachment"><br>
+              <div class="buttonSection">
+          <div class="form-group">
+<button class="btn btn-success" (ngSubmit)="Update(user)"  type="submit">Update</button></div>
+
+         
+         </div>
+        </div>
+        </form>
+    </div>
+</div>
+<div>
+</div>
+<footer-c></footer-c>

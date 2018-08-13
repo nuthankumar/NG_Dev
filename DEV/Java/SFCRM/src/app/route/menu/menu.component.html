@@ -1,0 +1,15 @@
+<ul class="top-level-menu">
+	<li id="li-{{menu.id}}">
+		<a href="{{menu.link}}">{{menu.label}}</a>
+		<ul class="second-level-menu">
+			<li *ngFor="let childMenu of menu.children">
+				<a routerLink="{{childMenu.link}}">{{childMenu.label}}</a>
+				<ul class="third-level-menu">
+					<li *ngFor="let childMenu of childMenu.children">
+						<a routerLink="{{childMenu.link}}">{{childMenu.label}}</a>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+</ul>

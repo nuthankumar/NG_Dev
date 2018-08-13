@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DS_SFCRM">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=nibc2274;Initial Catalog=SFCRM</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>e7c57d97-ead3-4a52-9d8e-78594e129f3b</DataSourceID>
+</RptDataSource>

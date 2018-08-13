@@ -1,0 +1,405 @@
+.ag-grid .ag-header-cell-label .ag-header-cell-text {
+    padding: 2px 0 !important;
+}
+
+.ag-theme-balham .ag-header-cell-label {
+    display: flex!important;
+    float: left!important;
+    height: 100%!important;
+    width: calc(100% - 21px)!important;
+
+}
+.ag-cell-label-container .ag-header-cell-sorted-none {    
+float: left!important;
+}
+.app-nav {
+    background: transparent;
+    min-height: 80px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 12px 0px;
+    margin: 0px;
+    border-bottom: none;
+    top: 0;
+    width: 100%;
+    background: #fff;
+}
+.app-dashboard-nav{
+    background: transparent;
+    min-height: 80px;
+    margin: 0px;
+    border-bottom: none;
+    top: 0;
+    width: 100%;
+    background: #fff;
+}
+.nav-sprite{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 12px 0px;
+}
+.header-logo-image {
+    width:160px;
+    height:61px;
+    background: transparent;
+}
+.home-icon{
+    font-size: 24px;
+    margin: 0 30px;
+}
+.section-box {
+    padding: 0px 30px;
+}
+footer {
+    width: 100%;
+    min-height: 50px;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 12px 6px;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 30px 0px 0px 0px;
+    background: rgb(255, 255, 255);
+}
+.dashboard-footer{
+    width: 100%;
+    min-height: 50px;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 12px 6px;
+    vertical-align: middle;
+    text-align: center;
+    bottom: 0;
+    padding: 10px 0px;
+    margin: 30px 0px 0px 0px;
+    background: rgb(255, 255, 255);
+}
+.ag-grid .ag-header{
+    background: #3791e2;
+    color: #fff;
+}
+.ag-grid .ag-row-odd{
+    background-color:rgba(55,145,226, 0.1);
+}
+/* .ag-grid .ag-header-cell {
+    border-left: 1px solid rgb(216, 230, 240);
+} */
+.ag-grid .ag-body-container div[role=gridcell]{
+    border-left: 1px solid rgb(216, 230, 240);
+}
+.ag-header-cell-label {
+    justify-content: center;
+    font-size: 14px;
+ }
+ .ag-theme-balham .ag-header-cell-resize::after{
+    height: 50px;
+    margin-top: 0;
+    width: 5px;
+ }
+ .exide-primary-button{
+    background: rgb(226,136,55);
+    color: #fff;
+    padding: 6px 25px;
+    border: none;
+ }
+ .exide-secondary-button{
+    background:#3791e2;
+    color: #fff;
+    padding: 6px 25px;
+    border: none;
+ }
+ /* maker content list specific css */
+ .maker-button-section{
+     display:inline-block!important;
+     float: right;
+     margin-right: 30px;
+     margin-top:10px
+ }
+ .button-select-option{
+    display:inline-block!important;
+    margin-right: 10px;
+ }
+ .button-select-option select{
+    display: block;
+    width: 100%;
+    font-size: 13px;
+    line-height: 18px;
+    color: rgb(85, 85, 85);
+    background-color: rgb(255, 255, 255);
+    padding: 6px 8px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(221, 221, 221);
+    border-image: initial;
+    border-radius: 0px;
+ }
+ .maker-reject-button{
+    display:inline-block!important;
+ }
+ span.ag-header-cell-text{
+    color: #fff!important;
+}
+.tab-section{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.approve-right-section{
+    display:inline-block!important;
+    float: right;
+    margin-right: 30px;
+}
+/* login */
+.login-background{
+    background-image: url('assets/images/bg.jpg');
+    height: 100vh;
+    width: 100%;
+    }
+    .exidelife-login-logo {
+        padding: 0;
+        margin: 0 auto 30px auto;
+        border: 0;
+        outline: none;
+        text-align: center;
+    }
+    #login-box {
+        background-color: #fff;
+        width: 450px;
+        height: 490px;
+        padding: 40px;
+        border-radius: 2px;
+        display: inline-block;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .loginForm {
+        padding: 0;
+        margin: 0;
+    }
+    .loginForm .form-group {
+        margin-bottom: 20px;
+    }
+    .loginForm .form-group label {
+        width: 100%;
+        font-size: 13px;
+        line-height: 18px;
+        text-align: left;
+        color: #555;
+        padding: 0;
+        margin: 0 0 5px 0;
+        display: inline-block;
+    }
+    .loginForm .form-group .form-field {
+        width: 100%;
+        text-align: left;
+    }
+    .loginForm .form-group .form-field .form-control {
+        display: block;
+        width: 100%;
+        padding: 10px 8px;
+        font-size: 13px;
+        line-height: 18px;
+        color: #888;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 0;
+    }
+    .clearfix {
+        float: none;
+        clear: both;
+    }
+    .login_footer {
+        position: absolute;
+        bottom: -40px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        font-size: 11px;
+        color: #999;
+        margin: 0 0 10px 0;
+        padding: 0;
+    }
+    .login_btn {
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        padding: 12px 25px;
+        margin: 0px;
+        float: right;
+        color: #fff;
+        background-color: #85af4b;
+        border: none;
+        outline: none;
+        width: 100%;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        transition-delay: 0.2s;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    }
+    .login_btn:hover {
+        background-color: #6f933e;
+    }
+    .reset_btn {
+        font-size: 12px;
+        line-height: 16px;
+        color: #3791e2;
+        border: none;
+        outline: none;
+        background-color: #fff;
+        margin: 0 0 15px 0;
+        padding: 0;
+    }
+    .maker-right-section{
+        float: right;
+        margin-right: 30px;
+        margin-bottom: 10px;
+    }
+    .login-section{
+        float: right;
+        margin: 20px;
+    }
+    .login-btn{
+        background-color: #3791e2!important;
+        color: #fff;
+    }
+    .prf-dropdown .multiselect-dropdown {
+        margin: 10px 0px!important;
+    }
+    /* navbar*/
+    .dashboard-nav{
+        width: 100%;
+        float: left;
+        background: #3791e2;
+    }
+    .third-level-menu
+    {
+        position: absolute;
+        top: 0;
+        right: -150px;
+        width: 150px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: none;
+    }
+    
+    .third-level-menu > li
+    {
+        height: 30px;
+        background: #3791e2;
+    }
+    .third-level-menu > li:hover { background: #3791e2; }
+    
+    .second-level-menu
+    {
+        position: absolute;
+        top: 45px;
+        left: 2px;
+    width: 154px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: none;
+        text-align: left!important;
+        border-top: 1px solid #0062ba;
+    }
+    
+    .second-level-menu > li
+    {
+        position: relative;
+       
+        background: #3791e2;
+    }
+     .second-level-menu > li >a{
+    padding: 7px 15px;
+    display: block;
+     }
+    
+    .second-level-menu > li:hover { background: #3791e2; }
+    
+    .top-level-menu
+    {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .top-level-menu > li {
+        position: relative;
+        float: left;
+        height: 45px;
+        background: #3791e2;
+        width: 158px;
+        text-align: center;
+    }
+    .top-level-menu > li:hover { background: #3791e2; }
+    
+    .top-level-menu li:hover > ul
+    {
+        /* On hover, display the next level's menu */
+        display: inline;
+    }
+    
+    
+    /* Menu Link Styles */
+    .top-level-menu{
+        padding-left: 10px; 
+    }
+    .top-level-menu a /* Apply to all links inside the multi-level menu */
+    {
+        font: 14px Arial, Helvetica, sans-serif;
+        color: #FFFFFF;
+        text-decoration: none;
+        padding: 5px 10px;
+       /* Make the link cover the entire list item-container */
+        display: block;
+        box-sizing: border-box;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .top-level-menu >li>  a /* Apply to all links inside the multi-level menu */
+    {
+    padding: 14px 10px;
+    margin-top: 1px;
+    }
+    .top-level-menu a:hover {    color: #fff;
+    background: #20639f;
+    }
+
+
+/* Temp */
+
+button.exide-primary-button.temp-mrgn {
+    margin-left: 31px;
+     margin-top: 10px; 
+}
+.ag-header-cell-menu-button{
+    
+    margin-top: 4px;
+}
+.ag-header-cell-label {
+    justify-content: flex-start;}
+.ag-theme-balham .ag-icon-menu{
+    background: none;
+}
+ .ag-theme-balham .ag-icon-menu:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    display: inline-block;
+    content: "\f0c9"; 
+ }
+ .ag-theme-balham .ag-tab-header .ag-tab.ag-tab-selected .ag-icon-menu{
+     background: none;
+         color: #44AEF0;
+ }
+ .fa-home:before{
+     font-size: 20px;
+ }
+ .ag-theme-balham .ag-header-cell-resize::after{
+     width: 0px !important;
+     border-right: none;
+ }
+ .ag-grid .ag-row-odd .ag-theme-balham .ag-row-selected .active{
+         background-color: #b7e4ff;
+ }

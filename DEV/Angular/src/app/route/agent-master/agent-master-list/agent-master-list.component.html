@@ -1,0 +1,47 @@
+<header-c></header-c>
+<a routerLink="" class="home-icon"><i class="fas fa-home"></i></a><br><br>
+<div>
+<div class="section-box">
+<div style="box-sizing: border-box; height: 98%;">
+    <ag-grid-angular
+    #agGrid
+    style="width: 100%; height: 700px;"
+    id="myGrid"
+    class="ag-theme-balham ag-grid"
+    [rowData]="lists"
+    [columnDefs]="columnDefs"
+    [enableSorting]="true"
+    [enableFilter]="true"
+    [suppressRowClickSelection]="true"
+    [groupSelectsChildren]="true"
+    [debug]="true"
+    [rowSelection]="rowSelection"
+    [enableColResize]="true"
+    [rowGroupPanelShow]="rowGroupPanelShow"
+    [pivotPanelShow]="pivotPanelShow"
+    [enableRangeSelection]="true"
+    [pagination]="false"
+    [gridOptions]="gridOptions"
+    
+    
+    ></ag-grid-angular>
+</div>
+
+        <div class="ag-paging-panel ag-font-style">
+                <span ref="eSummaryPanel" class="ag-paging-row-summary-panel">
+                    <span ref="lbFirstRowOnPage">1</span> to <span ref="lbLastRowOnPage"></span> of <span ref="lbRecordCount">{{pages}}</span>
+                </span>
+                <span class="ag-paging-page-summary-panel">
+                    <button type="button" class="ag-paging-button" id="firstButton" (click)="firstButton()">First</button>
+                    <button type="button" class="ag-paging-button" id="previousButton" (click)="previousButton()" ><</button>
+                    Page <span ref="lbCurrent">1</span> of <span ref="lbTotal">{{pages}}</span>
+                    <button type="button" class="ag-paging-button" id="nextButton" (click)="nextButton()" >></button>
+                    <button type="button" class="ag-paging-button" ref="btLast" (click)="lastButton()">Last</button>
+                </span>
+            </div>
+
+
+</div>
+</div>
+<footer-c></footer-c>
+<!-- <loaders-css [loader]="'square-spin'" [loaderClass]="'my-loader'"></loaders-css> -->

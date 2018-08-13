@@ -1,0 +1,30 @@
+<!--component html goes here -->
+<header-c></header-c>
+<a routerLink="" class="home-icon"><i class="fas fa-home"></i></a>
+<div>
+    <div class="maker-right-section">
+        <button class="btn exide-secondary-button" (click)="sendToChecker()">Send to checker</button>
+    </div>
+    <div class="clearfix section-box">
+        <ag-grid-angular 
+        style="height: 700px;" 
+        class="ag-theme-balham ag-grid" 
+        [gridOptions]="gridOptions" 
+        [enableSorting]="true"
+        [enableFilter]="true" 
+        [rowData]="lists" 
+        [columnDefs]="columnDefs" 
+        paginationPageSize="5" 
+        pagination="true" 
+        rowSelection="multiple"
+        [showToolPanel]="showToolPanel" 
+        [enableRangeSelection]="true" 
+        toolPanelSuppressGroups 
+        toolPanelSuppressValues 
+        [rowMultiSelectWithClick]="true"
+        [isRowSelectable]="isRowSelectable" 
+        rowHeight="30">
+        </ag-grid-angular>
+    </div>
+</div>
+<footer-c></footer-c>

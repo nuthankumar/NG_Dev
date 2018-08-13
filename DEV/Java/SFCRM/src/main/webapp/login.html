@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+
+    </head>
+    <body>
+        <div class="login-background">
+        <section id="login-box">
+                <div class="exidelife-login-logo">
+                        <img src="assets/images/exidelife-logo.jpg" alt="exide-life-logo" class="header-logo-image">
+                      </div>
+                      <h3>SFCRM Login</h3>
+
+
+        			<form ngNoForm action="login" method="post" class="loginForm">
+
+        	        <div class="form-group">
+        			    <label>Username</label>
+        			    <div class="form-field">
+        	   	        	<input type="text" placeholder="Enter Username" name="username" id="username" class="form-control">
+        	        	</div>
+        	        	<div class="clearfix"></div>
+        	        </div>
+
+        	        <div class="form-group">
+            	    	<label>Password</label>
+        	    	    <div class="form-field">
+            	  	    	<input type="password" placeholder="Enter Password" name="password" id="password" class="form-control">
+        	           	</div>
+        	           	<div class="clearfix"></div>
+        	        </div>
+        	        <div class="form-group">
+        	            <button type="reset" class="reset_btn">
+        						<i class="fas fa-redo"></i>
+        	            Reset</button>
+        	    	    <button type="submit" class="login_btn">Login</button>
+        	        </div>
+        	    	<!--<input type="hidden" name="_csrf" value="{{csrfToken}}"/>-->
+        			</form>
+        			<small class="login_footer">© 2018 Exide Life Insurance Company Limited. All rights reserved.</small>
+        </section>
+        </div>
+        <script type="text/javascript" src="styles.2ea86aa35cae38d7889d.js"></script>
+    </body>
+</html>

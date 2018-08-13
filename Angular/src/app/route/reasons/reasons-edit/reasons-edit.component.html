@@ -1,0 +1,24 @@
+<header-c></header-c>
+    <a routerLink="" class="home-icon"><i class="fas fa-home"></i></a><br><br>
+<div class="list">
+    <h3>Edit Reasons</h3><br>
+    <div class="">
+      <form (ngSubmit)="form()">
+             <label for="code">Dest ID* :</label>
+            <input type="text" name="code" class="form-control" [(ngModel)]="destination.destID"><br><br><br>
+            <label for="name">Dest Name* :</label>
+            <input type="text" name="name" class="form-control" [(ngModel)]="destination.destName"><br><br><br>
+            
+           
+           
+            <label for="description">Dest Description :</label>
+            <input type="text" class="form-control" name="description" [(ngModel)]="destination.destDescrp"><br>
+         <div class="buttonSection">
+            <input type="submit" value="Save" class="btn">
+            <a routerLink="/destination"><input type="button" value="Cancel" class="btn"></a> 
+         
+         </div>
+</form>
+    </div>
+</div>
+<footer-c></footer-c>

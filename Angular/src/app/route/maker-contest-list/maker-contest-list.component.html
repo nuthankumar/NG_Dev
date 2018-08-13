@@ -1,0 +1,81 @@
+<!--component html goes here -->
+<header-c></header-c>
+<a routerLink="" class="home-icon"><i class="fas fa-home"></i></a>
+    <div class="row">
+        <div class="col-sm-12" style="margin-left: 20px;">
+         <dashboard></dashboard>
+        </div>
+    </div>
+<div>
+    <div class="maker-button-section">
+        <div class="button-select-option"> <select [(ngModel)]="selectedValue">
+        <option value="undefined" disabled selected>Select</option> 
+                <option *ngFor="let list of lists" value= {{list.contestId}}>
+                  {{list.contestId}}
+                </option>
+              </select></div>
+        <div class="maker-reject-button">
+            <button type="button" class="makerButton exide-primary-button" (click)="rejectBtn()">Reject</button>
+        </div>
+    </div>
+    <a routerLink="/addDeviation"><button class="exide-primary-button temp-mrgn">Add new Deviation</button></a>
+    <div>
+        <ul class="nav nav-tabs tab-section">
+            <li class="active"><a data-toggle="tab" href="#home">Cash</a></li>
+            <li><a data-toggle="tab" href="#menu1">Points</a></li>
+            <li><a data-toggle="tab" href="#menu2">Tickets</a></li>
+        </ul>
+        <div class="tab-content">
+            <div id="home" class="tab-pane fade in active">
+                <div class="section-box">
+                    <ag-grid-angular 
+                    style="height: 700px;" 
+                    class="ag-theme-balham ag-grid" 
+                    [gridOptions]="gridOptions" 
+                    [enableSorting]="true"
+                    [enableFilter]="true" 
+                    [rowData]="lists" 
+                    [columnDefs]="columnDefs" 
+                    (rowClicked)='onRowClicked($event)'
+                    paginationPageSize="5" 
+                    pagination="true" 
+                    [showToolPanel]="showToolPanel">
+                    </ag-grid-angular>
+                </div>
+            </div>
+            <div id="menu1" class="tab-pane fade">
+                <div class="section-box">
+                    <ag-grid-angular 
+                    style="height: 700px;" 
+                    class="ag-theme-balham ag-grid" 
+                    [gridOptions]="gridOptions" 
+                    [enableSorting]="true"
+                    [enableFilter]="true" 
+                    [rowData]="" 
+                    [columnDefs]="columnDefs" 
+                    (rowClicked)='onRowClicked($event)'
+                    paginationPageSize="5" 
+                    pagination="true">
+                    </ag-grid-angular>
+                </div>
+            </div>
+            <div id="menu2" class="tab-pane fade">
+                <div class="section-box">
+                    <ag-grid-angular 
+                    style="height: 700px;" 
+                    class="ag-theme-balham ag-grid" 
+                    [gridOptions]="gridOptions" 
+                    [enableSorting]="true"
+                    [enableFilter]="true" 
+                    [rowData]="ticketlists" 
+                    [columnDefs]="columnDefs" 
+                    (rowClicked)='onRowClicked($event)'
+                    paginationPageSize="5" 
+                    pagination="true">
+                    </ag-grid-angular>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer-c></footer-c>

@@ -1,0 +1,67 @@
+<!--component html goes here -->
+<header-c></header-c>
+<a routerLink="" class="home-icon"><i class="fas fa-home"></i></a>
+<div>
+  <ul class="nav nav-tabs tab-section">
+    <li class="active"><a data-toggle="tab" href="#home">Cash</a></li>
+    <li><a data-toggle="tab" href="#menu1">Points</a></li>
+    <li><a data-toggle="tab" href="#menu2">Tickets</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+        <div class="section-box">
+<ag-grid-angular 
+    style="height: 700px;" 
+    class="ag-theme-balham ag-grid"
+    [enableSorting]="true"
+    [enableFilter]="true"
+    [gridOptions]="gridOptions"
+    [rowData]="lists" 
+    [columnDefs]="columnDefs"
+    (rowClicked)='onRowClicked($event)' 
+    paginationPageSize="5"
+    pagination="true"
+    >
+</ag-grid-angular>
+</div>
+      </div>
+    <div id="menu1" class="tab-pane fade">
+        <div class="section-box">
+<ag-grid-angular 
+    style="height: 700px;" 
+    class="ag-theme-balham ag-grid"
+    [enableSorting]="true"
+    [enableFilter]="true"
+    [gridOptions]="gridOptions"
+    [rowData]="lists" 
+    [columnDefs]="columnDefs"
+    (rowClicked)='onRowClicked($event)' 
+    paginationPageSize="5"
+    pagination="true"
+    >
+</ag-grid-angular>
+</div>
+      </div>
+    <div id="menu2" class="tab-pane fade">
+        <div class="section-box">
+<ag-grid-angular 
+    style="height: 700px;" 
+    class="ag-theme-balham ag-grid"
+    [enableSorting]="true"
+    [enableFilter]="true"
+    [gridOptions]="gridOptions"
+    [rowData]="lists" 
+    [columnDefs]="columnDefs"
+    (rowClicked)='onRowClicked($event)' 
+    paginationPageSize="5"
+    pagination="true"
+    >
+</ag-grid-angular>
+</div>
+      </div>
+  </div>
+</div>
+<footer-c></footer-c>
+
+

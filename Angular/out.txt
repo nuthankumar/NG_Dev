@@ -1,0 +1,189 @@
+
+src/app/app.component.spec.ts[26, 4]: file should end with a newline
+src/app/app.component.ts[10, 7]: missing JSDoc @returns for function
+src/app/app.component.ts[11, 1]: asterisks in jsdoc must be aligned
+src/app/app.component.ts[12, 1]: asterisks in jsdoc must be aligned
+src/app/app.component.ts[4, 15]: The selector of the component "AppComponent" should have prefix "composite2.0" (https://goo.gl/cix8BY)
+src/app/app.component.ts[13, 26]: block is empty
+src/app/app.component.ts[16, 2]: file should end with a newline
+src/app/app.component.ts[15, 1]: Consecutive blank lines are forbidden
+src/app/app.module.ts[1, 80]: ' should be "
+src/app/app.module.ts[5, 33]: ' should be "
+src/app/app.module.ts[9, 29]: ' should be "
+src/app/app.module.ts[11, 30]: ' should be "
+src/app/app.module.ts[12, 34]: ' should be "
+src/app/app.module.ts[14, 35]: ' should be "
+src/app/app.module.ts[17, 1]: Consecutive blank lines are forbidden
+src/app/app.module.ts[31, 60]: missing whitespace
+src/app/app.routing.ts[5, 30]: ' should be "
+src/app/app.routing.ts[3, 1]: Consecutive blank lines are forbidden
+src/app/app.routing.ts[7, 1]: Consecutive blank lines are forbidden
+src/app/app.routing.ts[13, 1]: Consecutive blank lines are forbidden
+src/app/app.routing.ts[24, 1]: Consecutive blank lines are forbidden
+src/app/app.routing.ts[33, 1]: Consecutive blank lines are forbidden
+src/app/app.routing.ts[4, 10]: Unused import: 'ModuleWithProviders'
+src/app/environments/environments.ts[4, 12]: ' should be "
+src/app/environments/environments.ts[5, 3]: file should end with a newline
+src/app/error-handling/ErrorLogService.ts[76, 2]: file should end with a newline
+src/app/error-handling/ErrorLogService.ts[2, 51]: Missing semicolon
+src/app/error-handling/ErrorLogService.ts[3, 53]: Missing semicolon
+src/app/error-handling/ErrorLogService.ts[4, 53]: Missing semicolon
+src/app/error-handling/ErrorLogService.ts[1, 50]: expected nospace before colon in call-signature
+src/app/error-handling/ErrorLogService.ts[2, 41]: expected nospace before colon in call-signature
+src/app/error-handling/ErrorLogService.ts[3, 43]: expected nospace before colon in call-signature
+src/app/error-handling/ErrorLogService.ts[4, 43]: expected nospace before colon in call-signature
+src/app/error-handling/ErrorLogService.ts[23, 34]: expected nospace before colon in call-signature
+src/app/error-handling/ErrorLogService.ts[46, 39]: expected nospace before colon in call-signature
+src/app/error-handling/LoggingErrorHandler.ts[10, 18]: interface name must start with a capitalized I
+src/app/error-handling/LoggingErrorHandler.ts[131, 3]: file should end with a newline
+src/app/error-handling/LoggingErrorHandler.ts[9, 1]: Consecutive blank lines are forbidden
+src/app/error-handling/LoggingErrorHandler.ts[20, 1]: Consecutive blank lines are forbidden
+src/app/error-handling/LoggingErrorHandler.ts[27, 1]: Consecutive blank lines are forbidden
+src/app/error-handling/LoggingErrorHandler.ts[44, 1]: Consecutive blank lines are forbidden
+src/app/error-handling/LoggingErrorHandler.ts[49, 1]: Consecutive blank lines are forbidden
+src/app/error-handling/LoggingErrorHandler.ts[95, 1]: Consecutive blank lines are forbidden
+src/app/error-handling/LoggingErrorHandler.ts[100, 1]: Consecutive blank lines are forbidden
+src/app/error-handling/LoggingErrorHandler.ts[116, 1]: Consecutive blank lines are forbidden
+src/app/error-handling/LoggingErrorHandler.ts[51, 37]: expected nospace before colon in call-signature
+src/app/error-handling/LoggingErrorHandler.ts[102, 44]: expected nospace before colon in call-signature
+src/app/error-handling/LoggingErrorHandler.ts[5, 1]: Unused import: 'import { forwardRef } from "@angular/core";'
+src/app/error-handling/LoggingErrorHandler.ts[15, 8]: Forbidden 'var' keyword, use 'let' or 'const' instead
+src/app/error-handling/LoggingErrorHandler.ts[122, 8]: Forbidden 'var' keyword, use 'let' or 'const' instead
+src/app/error-handling/page-not-found-component/404.component.ts[8, 14]: The name of the class PageNotFound should end with the suffix Component (https://goo.gl/5X1TE7)
+src/app/error-handling/page-not-found-component/404.component.ts[4, 13]: The selector of the component "PageNotFound" should have prefix "composite2.0" (https://goo.gl/cix8BY)
+src/app/error-handling/page-not-found-component/404.component.ts[1, 27]: ' should be "
+src/app/error-handling/page-not-found-component/404.component.ts[4, 13]: ' should be "
+src/app/error-handling/page-not-found-component/404.component.ts[8, 26]: missing whitespace
+src/app/error-handling/page-not-found-component/404.component.ts[5, 17]: missing whitespace
+src/app/layers/http/http.layer.ts[30, 3]: Declaration of public instance method not allowed after declaration of private instance method. Instead, this should come at the beginning of the class/interface.
+src/app/layers/http/http.layer.ts[36, 3]: Declaration of public instance method not allowed after declaration of private instance method. Instead, this should come at the beginning of the class/interface.
+src/app/layers/http/http.layer.ts[46, 3]: Declaration of public instance method not allowed after declaration of private instance method. Instead, this should come at the beginning of the class/interface.
+src/app/layers/http/http.layer.ts[1, 8]: ' should be "
+src/app/layers/http/http.layer.ts[2, 8]: ' should be "
+src/app/layers/http/http.layer.ts[4, 58]: ' should be "
+src/app/layers/http/http.layer.ts[6, 28]: ' should be "
+src/app/layers/http/http.layer.ts[7, 28]: ' should be "
+src/app/layers/http/http.layer.ts[8, 29]: ' should be "
+src/app/layers/http/http.layer.ts[18, 7]: ' should be "
+src/app/layers/http/http.layer.ts[18, 23]: ' should be "
+src/app/layers/http/http.layer.ts[19, 7]: ' should be "
+src/app/layers/http/http.layer.ts[19, 17]: ' should be "
+src/app/layers/http/http.layer.ts[22, 1]: Consecutive blank lines are forbidden
+src/app/layers/http/http.layer2.ts[44, 3]: missing JSDoc parameter type for 'http'
+src/app/layers/http/http.layer2.ts[44, 3]: missing JSDoc @returns for function
+src/app/layers/http/http.layer2.ts[53, 3]: missing JSDoc parameter type for 'resp'
+src/app/layers/http/http.layer2.ts[53, 3]: missing JSDoc return description
+src/app/layers/http/http.layer2.ts[71, 3]: missing JSDoc parameter type for 'req'
+src/app/layers/http/http.layer2.ts[71, 3]: missing JSDoc return description
+src/app/layers/http/http.layer2.ts[80, 3]: missing JSDoc parameter type for 'res'
+src/app/layers/http/http.layer2.ts[80, 3]: missing JSDoc return description
+src/app/layers/http/http.layer2.ts[80, 3]: expected JSDoc for 'resp' but found 'res'
+src/app/layers/http/http.layer2.ts[97, 3]: missing JSDoc parameter type for 'key'
+src/app/layers/http/http.layer2.ts[97, 3]: missing JSDoc parameter type for 'value'
+src/app/layers/http/http.layer2.ts[97, 3]: missing JSDoc @returns for function
+src/app/layers/http/http.layer2.ts[106, 3]: missing JSDoc parameter type for 'key'
+src/app/layers/http/http.layer2.ts[115, 3]: missing JSDoc parameter type for 'url'
+src/app/layers/http/http.layer2.ts[115, 3]: missing JSDoc @returns for function
+src/app/layers/http/http.layer2.ts[123, 3]: missing JSDoc parameter type for 'interceptor'
+src/app/layers/http/http.layer2.ts[123, 3]: missing JSDoc @returns for function
+src/app/layers/http/http.layer2.ts[131, 3]: missing JSDoc parameter type for 'interceptor'
+src/app/layers/http/http.layer2.ts[131, 3]: missing JSDoc @returns for function
+src/app/layers/http/http.layer2.ts[139, 3]: missing JSDoc parameter type for 'interceptor'
+src/app/layers/http/http.layer2.ts[139, 3]: missing JSDoc @returns for function
+src/app/layers/http/http.layer2.ts[147, 3]: missing JSDoc parameter type for 'key'
+src/app/layers/http/http.layer2.ts[147, 3]: missing JSDoc @returns for function
+src/app/layers/http/http.layer2.ts[155, 3]: missing JSDoc parameter type for 'url'
+src/app/layers/http/http.layer2.ts[155, 3]: missing JSDoc parameter type for 'options'
+src/app/layers/http/http.layer2.ts[167, 3]: missing JSDoc parameter type for 'url'
+src/app/layers/http/http.layer2.ts[167, 3]: missing JSDoc parameter type for 'data'
+src/app/layers/http/http.layer2.ts[167, 3]: missing JSDoc parameter type for 'options'
+src/app/layers/http/http.layer2.ts[181, 3]: missing JSDoc parameter type for 'url'
+src/app/layers/http/http.layer2.ts[181, 3]: missing JSDoc parameter type for 'data'
+src/app/layers/http/http.layer2.ts[181, 3]: missing JSDoc parameter type for 'options'
+src/app/layers/http/http.layer2.ts[195, 3]: missing JSDoc parameter type for 'url'
+src/app/layers/http/http.layer2.ts[195, 3]: missing JSDoc parameter type for 'data'
+src/app/layers/http/http.layer2.ts[195, 3]: missing JSDoc parameter type for 'options'
+src/app/layers/http/http.layer2.ts[209, 3]: missing JSDoc parameter type for 'url'
+src/app/layers/http/http.layer2.ts[209, 3]: missing JSDoc parameter type for 'options'
+src/app/layers/http/http.layer2.ts[221, 3]: missing JSDoc parameter type for 'data'
+src/app/layers/http/http.layer2.ts[230, 3]: missing JSDoc parameter type for 'resp'
+src/app/layers/http/http.layer2.ts[245, 3]: missing JSDoc parameter type for 'url'
+src/app/layers/http/http.layer2.ts[254, 3]: missing JSDoc parameter type for 'options'
+src/app/layers/http/http.layer2.ts[24, 3]: Declaration of public instance field not allowed after declaration of private instance field. Instead, this should come at the beginning of the class/interface.
+src/app/layers/http/http.layer2.ts[1, 61]: ' should be "
+src/app/layers/http/http.layer2.ts[2, 28]: ' should be "
+src/app/layers/http/http.layer2.ts[3, 28]: ' should be "
+src/app/layers/http/http.layer2.ts[4, 8]: ' should be "
+src/app/layers/http/http.layer2.ts[5, 8]: ' should be "
+src/app/layers/http/http.layer2.ts[6, 8]: ' should be "
+src/app/layers/http/http.layer2.ts[24, 23]: ' should be "
+src/app/layers/http/http.layer2.ts[59, 30]: ' should be "
+src/app/layers/http/http.layer2.ts[64, 30]: ' should be "
+src/app/layers/http/http.layer2.ts[88, 30]: ' should be "
+src/app/layers/http/http.layer2.ts[272, 2]: file should end with a newline
+src/app/layers/http/http.layer2.ts[176, 5]: Missing blank line before return
+src/app/layers/http/http.layer2.ts[190, 5]: Missing blank line before return
+src/app/layers/http/http.layer2.ts[204, 5]: Missing blank line before return
+src/app/route/About/about.component.ts[5, 15]: The selector of the component "AboutComponent" should be named kebab-case and include dash (https://goo.gl/mBg67Z)
+src/app/route/About/about.component.ts[1, 27]: ' should be "
+src/app/route/About/about.component.ts[5, 15]: ' should be "
+src/app/route/About/about.component.ts[6, 18]: ' should be "
+src/app/route/About/about.component.ts[7, 17]: ' should be "
+src/app/route/Contact/contact.component.ts[5, 15]: The selector of the component "ContactComponent" should be named kebab-case and include dash (https://goo.gl/mBg67Z)
+src/app/route/Contact/contact.component.ts[1, 27]: ' should be "
+src/app/route/Contact/contact.component.ts[5, 15]: ' should be "
+src/app/route/Contact/contact.component.ts[6, 18]: ' should be "
+src/app/route/Contact/contact.component.ts[7, 17]: ' should be "
+src/app/route/home/home.component.ts[14, 1]: asterisks in jsdoc must be aligned
+src/app/route/home/home.component.ts[15, 1]: asterisks in jsdoc must be aligned
+src/app/route/home/home.component.ts[16, 1]: asterisks in jsdoc must be aligned
+src/app/route/home/home.component.ts[17, 1]: asterisks in jsdoc must be aligned
+src/app/route/home/home.component.ts[24, 1]: asterisks in jsdoc must be aligned
+src/app/route/home/home.component.ts[25, 1]: asterisks in jsdoc must be aligned
+src/app/route/home/home.component.ts[36, 1]: asterisks in jsdoc must be aligned
+src/app/route/home/home.component.ts[37, 1]: asterisks in jsdoc must be aligned
+src/app/route/home/home.component.ts[38, 1]: asterisks in jsdoc must be aligned
+src/app/route/home/home.component.ts[39, 1]: asterisks in jsdoc must be aligned
+src/app/route/home/home.component.ts[40, 1]: asterisks in jsdoc must be aligned
+src/app/route/home/home.component.ts[41, 1]: asterisks in jsdoc must be aligned
+src/app/route/home/home.component.ts[42, 1]: asterisks in jsdoc must be aligned
+src/app/route/home/home.component.ts[43, 1]: asterisks in jsdoc must be aligned
+src/app/route/home/home.component.ts[5, 15]: The selector of the component "HomeComponent" should have prefix "composite2.0" (https://goo.gl/cix8BY)
+src/app/route/home/home.component.ts[26, 3]: Declaration of public instance field not allowed after declaration of public instance method. Instead, this should come at the beginning of the class/interface.
+src/app/route/home/home.component.ts[31, 5]: Declaration of public instance field not allowed after declaration of public instance method. Instead, this should come at the beginning of the class/interface.
+src/app/route/home/home.component.ts[3, 1]: Consecutive blank lines are forbidden
+src/app/route/home/home.component.ts[12, 1]: Consecutive blank lines are forbidden
+src/app/route/home/home.component.ts[22, 1]: Consecutive blank lines are forbidden
+src/app/route/home/home.component.ts[33, 1]: Consecutive blank lines are forbidden
+src/app/route/home/home.component.ts[48, 1]: Consecutive blank lines are forbidden
+src/app/route/home/home.component.ts[51, 1]: Consecutive blank lines are forbidden
+src/app/route/home/home.component.ts[1, 20]: missing whitespace
+src/app/route/home/home.component.ts[18, 12]: missing whitespace
+src/app/route/Service/service.component.ts[5, 15]: The selector of the component "ServiceComponent" should be named kebab-case and include dash (https://goo.gl/mBg67Z)
+src/app/route/Service/service.component.ts[1, 27]: ' should be "
+src/app/route/Service/service.component.ts[5, 15]: ' should be "
+src/app/route/Service/service.component.ts[6, 18]: ' should be "
+src/app/route/Service/service.component.ts[7, 17]: ' should be "
+src/app/route/Service/service.component.ts[13, 18]: ' should be "
+src/app/route/Service/service.component.ts[13, 48]: ' should be "
+src/app/route/Service/service.component.ts[14, 18]: ' should be "
+src/app/route/Service/service.component.ts[14, 45]: ' should be "
+src/app/route/Service/service.component.ts[15, 18]: ' should be "
+src/app/route/Service/service.component.ts[15, 41]: ' should be "
+src/app/route/Service/service.component.ts[16, 18]: ' should be "
+src/app/route/Service/service.component.ts[16, 69]: ' should be "
+src/app/route/Service/service.component.ts[17, 18]: ' should be "
+src/app/route/Service/service.component.ts[17, 53]: ' should be "
+src/app/route/Service/service.component.ts[18, 18]: ' should be "
+src/app/route/Service/service.component.ts[18, 46]: ' should be "
+src/app/route/Service/service.component.ts[19, 18]: ' should be "
+src/app/route/Service/service.component.ts[19, 50]: ' should be "
+src/app/route/Service/service.component.ts[20, 18]: ' should be "
+src/app/route/Service/service.component.ts[20, 46]: ' should be "
+src/app/route/Service/service.component.ts[12, 1]: Consecutive blank lines are forbidden
+src/app/services/sampledata.service.ts[1, 20]: ' should be "
+src/app/services/sampledata.service.ts[2, 26]: ' should be "
+src/app/services/sampledata.service.ts[3, 26]: ' should be "
+src/app/services/sampledata.service.ts[11, 26]: ' should be "
+src/app/services/sampledata.service.ts[10, 15]: missing whitespace
+src/app/services/sampledata.service.ts[3, 1]: Unused import: 'import {Observable} from 'rxjs/observable';'

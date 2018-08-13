@@ -1,0 +1,31 @@
+<!--component html goes here -->
+
+<header-c></header-c>
+<a routerLink="" class="home-icon"><i class="fas fa-home"></i></a>
+<button (click)="advancePayApprove()">Approve</button>
+
+
+    <div id="home" class="tab-pane fade in active">
+        <div class="section-box">
+<ag-grid-angular 
+    style="height:700px;" 
+    class="ag-theme-balham ag-grid"
+    [gridOptions]="gridOptions"
+    [enableSorting]="true"
+    [enableFilter]="true"
+    [rowData]="advancePayListData" 
+    [columnDefs]="columnDefs"
+    paginationPageSize="5"
+    pagination="true"
+    [showToolPanel]="showToolPanel"
+    [defaultColDef]="defaultColDef"
+    (beforeFilterChanged)="onBeforeFilterChanged()"
+    (afterFilterChanged)="onAfterFilterChanged()"
+    (filterModified)="onFilterModified()"
+    >
+</ag-grid-angular>
+</div>
+      </div>
+<footer-c></footer-c>
+
+

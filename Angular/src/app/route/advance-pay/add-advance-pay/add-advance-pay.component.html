@@ -1,0 +1,70 @@
+<!--component html goes here -->
+<!--component html goes here -->
+<header class="app-header app-nav">
+    <div class="container-fluid">
+        <div class="col-md-6">
+            <div class="exidelife-logo">
+                <img src="/src/assets/images/exidelife-logo.jpg" alt="exide-life-logo" class="header-logo-image">
+            </div>
+        </div>
+    </div>
+</header>
+<a routerLink="" class="home-icon"><i class="fas fa-home"></i></a><br><br>
+<div class="list">
+    <h3>Add New Deviation</h3><br>
+    <div class="deviation-box button-select-option">
+        <form (ngSubmit)="form()"> <select [(ngModel)]="selectedValue" [ngModelOptions]="{standalone: true}" required>
+         <option value="undefined" disabled selected>Select</option> 
+       <option *ngFor="let list of lists" [ngValue]="list">
+                  {{list.agentNo}} | {{list.agentName}}
+                </option>
+              </select>
+            <div>
+                <div class="input-field-id">
+                    <label for="code">Agent Name</label>
+                    <input type="text" name="contestId" class="form-control contest-details" [(ngModel)]="selectedValue.agentName" disabled><br>
+                </div>
+                <div class="input-field">
+                    <label for="code">Advance Date</label>
+                    <input type="date" name="contestName" class="form-control contest-details" [(ngModel)]="advDate"><br>
+                </div>
+                <div class="input-field">
+                    <label for="code">Amount</label>
+                    <input type="text" name="startDate" class="form-control contest-details" [(ngModel)]="amount"><br>
+                </div>
+                <div class="input-field">
+                    <label for="code">Recoverable</label>
+                    <input type="checkbox" id="recoverableId" name="endDate" class="contest-details" [(ngModel)]="recoverable" (ngModelChange)="checkboxState()"><br>
+                </div>
+                <div class="input-field">
+                    <label for="code">Eff. Recovery Date</label>
+                    <input type="date" name="loadDate" class="form-control contest-details" [(ngModel)]="effStartDt"><br>
+                </div>
+                <div class="input-field">
+                    <label for="code">Max Rec Per Cycle</label>
+                    <input type="text" name="name" class="form-control contest-details" [(ngModel)]="maxRecoverblePerCycle" [disabled]="is_edit"><br>
+                </div>
+                <div class="input-field">
+                    <label for="code">Net Balance</label>
+                    <input type="text" name="amount" class="form-control contest-details" [(ngModel)]="amount" [disabled]="is_edit"><br>
+                </div>
+                <div class="input-field">
+                    <label for="code">Comments</label>
+                    <input type="text" name="remarks" class="form-control contest-details" [(ngModel)]="remarks"><br>
+                </div>
+                <div class="input-field">
+                    <label for="code">Email attachment</label>
+                    <input type="text" name="confAttchment" class="form-control contest-details" [(ngModel)]="confAttchment"><br>
+                </div>
+
+                <div class="buttonSection">
+                    <div class="form-group">
+                        <button class="btn btn-success" (ngSubmit)="Update(user)" type="submit">Update</button></div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<div>
+</div>
+<footer-c></footer-c>

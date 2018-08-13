@@ -1,0 +1,9 @@
+<!--component html goes here -->
+<header-c></header-c>
+<a routerLink="" class="home-icon"><i class="fas fa-home"></i></a><br><br>
+<div class="section-box">
+    <ag-grid-angular style="height: 700px;" class="ag-theme-balham ag-grid" [enableSorting]="true" [enableFilter]="true" [rowData]="lists"
+        [columnDefs]="columnDefs" [gridOptions]="gridOptions" rowSelection="multiple" paginationPageSize="5" pagination="true">
+    </ag-grid-angular>
+</div>
+<footer-c></footer-c>

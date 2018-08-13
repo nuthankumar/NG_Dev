@@ -1,0 +1,70 @@
+<!--component html goes here -->
+<!--component html goes here -->
+<!--component html goes here -->
+<header-c></header-c>
+<a routerLink="" class="home-icon"><i class="fas fa-home"></i></a><br><br>
+<div class="list">
+    <h3>Add New Deviation</h3><br>
+    <div class="deviation-box button-select-option">
+        <form (ngSubmit)="form()">
+            <div class="input-field-id">
+                <label for="contestId">Contest Name</label>
+                <input type="text" name="contestId" class="form-control contest-details" [(ngModel)]="contestName"><br>
+            </div>
+            <div class="input-field">
+                <label for="code">Start Date</label>
+                <input type="date" name="contestName" class="form-control contest-details" [(ngModel)]="startDate"><br>
+            </div>
+            <div class="input-field">
+                <label for="code">End Date</label>
+                <input type="date" name="loadDate" class="form-control contest-details" [(ngModel)]="endDate"><br>
+            </div>
+            <label for="code">Channel</label>
+            <select [(ngModel)]="selectedChannel" [ngModelOptions]="{standalone: true}" required>
+         <option value="undefined" disabled selected>Select</option> 
+      
+                <option *ngFor="let channelType of channelTypes" [ngValue]="channelType">
+                  {{channelType.chanelName}}
+                </option>
+              </select>
+             
+            <label for="code">AG class</label>
+            <select [(ngModel)]="selectedAG" [ngModelOptions]="{standalone: true}" required>
+         <option  disabled selected>Select</option> 
+      <option *ngFor="let agentType of agentTypes" [ngValue]="agentType">
+                  {{agentType}}
+                </option>
+              </select>
+            <label for="code">Category</label>
+            <select [(ngModel)]="selectedCategory" [ngModelOptions]="{standalone: true}" required>
+         <option value="undefined" disabled selected>Select</option> 
+         <option value="Regular" >Regular</option>
+         <option value="Incentive">Incentive</option>
+      </select>
+            <div class="input-field">
+                <label for="Cash">Cash</label>
+                <input type="checkbox" name="cash" class="contest-details" [(ngModel)]="cash" >
+                <label for="point">Points</label>
+                <input type="checkbox" name="point" class="contest-details" [(ngModel)]="point"  disabled>
+                <label for="trip">Trip</label>
+                <input type="checkbox" name="trip" class="contest-details" [(ngModel)]="trip" >
+            </div>
+            <div class="input-field">
+                <label for="code">Comments</label>
+                <input type="text" name="remarks" class="form-control contest-details" [(ngModel)]="remarks"><br>
+            </div>
+            <div class="input-field">
+                <label for="code">Email attachment</label>
+                <input type="text" name="confAttchment" class="form-control contest-details" [(ngModel)]="confAttchment"><br>
+            </div>
+
+            <div class="buttonSection">
+                <div class="form-group">
+                    <button class="btn btn-success" (ngSubmit)="Update(user)" type="submit">Update</button></div>
+            </div>
+        </form>
+    </div>
+</div>
+<div>
+</div>
+<footer-c></footer-c>

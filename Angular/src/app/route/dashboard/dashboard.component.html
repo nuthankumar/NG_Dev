@@ -1,0 +1,122 @@
+<header class="app-header app-dashboard-nav">
+    <div class="container-fluid">
+        <div class="col-md-6">
+            <!--<div class="exidelife-logo">
+                <img src="/src/assets/images/exidelife-logo.jpg" alt="exide-life-logo" class="header-logo-image">
+            </div>-->
+        </div>
+        <div class="login-section">
+            <a routerLink="/login">
+                <button class="login-btn">Login</button>
+            </a>
+        </div>
+    </div>
+</header>
+<div class="dashboard-nav">
+
+ <ul class="top-level-menu">
+    <li><a href="#">User Mangement</a></li>
+    <li>
+        <a href="#">Master</a>
+        <ul class="second-level-menu">
+            <li><a routerLink="/agentMasterList">Agent Master List</a></li>
+            <li><a routerLink="/contestmaster">Contest</a></li>
+            <li><a routerLink="/destination">Destination</a></li>
+            <li><a routerLink="/reasons">Reasons</a></li>
+            <li><a href="#">Agent Greglist</a></li>
+            <li><a routerLink="/vendor">Vendor Master</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="#">Contest Data</a>
+        <ul class="second-level-menu">
+            <li><a routerLink="/exideContest">Exide Contest</a></li>
+            <li><a routerLink="/exideReportDataUpdate">Exide Report Data Update</a></li>
+            <li><a routerLink="/exideRuleEngine">Exide Rule Engine</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="#">Advance</a>
+        <ul class="second-level-menu">
+            <li><a routerLink="/advancePay">Advance Payment</a></li>
+            <li><a href="#">Maker List</a></li>
+            <li><a routerLink="/advancePayChecker">Checker List</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="#">Deviation</a>
+        <ul class="second-level-menu">
+             <li><a routerLink="/deviation">Deviation Approve</a></li>
+            <li><a href="#">Cash</a>
+            <ul class="third-level-menu">
+                    <li><a routerLink="/addDeviation">Deviation Entry</a></li>
+                    <li><a href="#">Deviation Approval</a></li>
+                </ul> 
+            </li>
+            <li><a href="#">Tickets</a>          
+            <ul class="third-level-menu">
+                <li><a href="#">Deviation Entry</a></li>
+                <li><a href="#">Deviation Approval</a></li>
+            </ul> 
+        </li>  
+        </ul>
+    </li>
+    <li>
+        <a href="#">PRF</a>
+        <ul class="second-level-menu">
+            <li><a routerLink="/makerContestList">Maker Queue</a></li>
+            <li><a routerLink="/checkerContestList">Checker Queue</a></li>
+            <li><a routerLink="/prfList">PRF List</a></li>
+            <li><a routerLink="/approveOne">Approver 1</a></li>
+            <li><a routerLink="/approveTwo">Approver 2</a></li>            
+            <li><a href="#">Approver 3</a></li>
+            <li><a href="#">PRF Generation</a></li>
+            <li><a href="#">UTR/Transfer</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="#">Vendor PRF</a>
+        <ul class="second-level-menu">
+            <li><a href="#">Vendor Trasaction</a></li>
+            <li><a href="#">PreVendor List</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="#">Reports</a>
+        <ul class="second-level-menu">
+            <li><a href="http://nibc2274/Reports/Pages/Report.aspx?ItemPath=%2fSFCRM%2fReports%2fPRF_Information_Cash">PRF Wise Report</a></li>
+            <li><a href="#">Pending Payout</a></li>
+            <li><a href="#">Transfer Wise Payout Report</a></li>
+            <li><a href="#">Recover Report</a></li>       
+            <li><a href="#">Deviation Report</a></li>
+            <li><a href="#">Advance Transaction Report</a></li>
+            <li><a href="#">Agent Wise Report</a></li>
+            <li><a href="#">Content Qualifier Report</a></li>
+            <li><a href="#">Advance Report</a></li>
+        </ul>
+    </li>
+</ul> 
+
+
+</div>
+
+
+<!-- second menu dropdown to display the menu dynamically-->
+<!--<ul class="top-level-menu">     
+    <li *ngFor="let item of navItems">
+        <a href="#" >
+          <span>{{item.label}}</span>     
+        </a>
+        <ul class="second-level-menu">
+            <li *ngFor="let itemchild of item.children"><a routerLink="{{itemchild.link}}">{{itemchild.label}}</a></li>
+        </ul>
+    </li>  
+</ul> -->
+
+<!-- footer-->
+<!--<footer class="dashboard-footer">
+    <div>
+        <small>
+            <i class="far fa-copyright"></i>2018 Exide Life Insurance Company Limited. All rights reserved.</small>
+    </div>
+</footer>-->

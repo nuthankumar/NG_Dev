@@ -1,0 +1,38 @@
+<header-c></header-c>
+<a routerLink="" class="home-icon"><i class="fas fa-home"></i></a>
+<div>
+  <div class="approve-right-section">
+<button class="btn exide-secondary-button" (click)="sendToApproverTwo()">Approve</button>
+<button (click)="selectAllCheckbox()" class="exide-primary-button">Select All</button>
+<button (click)="gridOptions.api.deselectAll()" class="exide-primary-button">Deselect All</button>
+</div>
+<div>
+  <ul class="nav nav-tabs tab-section">
+    <li class="active"><a data-toggle="tab" href="#home">Cash</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+        <div class="section-box">
+<ag-grid-angular 
+    style="height: 700px;" 
+    class="ag-theme-balham  ag-grid"
+    [gridOptions]="gridOptions"
+    [enableSorting]="true"
+    [enableFilter]="true"
+    [rowData]="lists" 
+    [columnDefs]="columnDefs"
+    paginationPageSize="5"
+    pagination="true"
+    rowSelection="multiple" 
+    
+    >
+</ag-grid-angular>
+</div>
+      </div>
+  </div>
+</div>
+
+</div>
+<footer-c></footer-c>
+
